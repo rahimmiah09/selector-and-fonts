@@ -1,0 +1,66 @@
+/* font link */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+
+@font-face {
+  font-family: Breathney Demo;
+  src: url("fonts/breathney-demo.ttf");
+}
+
+/* uneversal all selector */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* element slector */
+
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  border: 6px solid orange;
+}
+
+p {
+  font-size: large;
+}
+
+/* class selector */
+.p2 {
+  color: chartreuse;
+}
+
+/* id selector */
+
+#jj1 {
+  font-style: italic;
+  font-size: larger;
+}
+
+/* group selectors */
+
+.p3,
+.p4 {
+  color: aqua;
+}
+
+/* nested selector or parent child selectors */
+
+.p2 span {
+  font-size: large;
+  background-color: blue;
+}
+
+/* first child last child selector */
+.container p:last-child {
+  font-weight: 800;
+}
+
+.font {
+  font-family: Oswald, sans-serif;
+}
+
+.fontp {
+  font-family: Breathney Demo, sans-serif;
+}
